@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("../../images/kitchen.jpg") center center/cover no-repeat;
+}
+.banner .banner-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  line-height: 4.5rem;
+}
+.banner .banner-info h1 {
+  position: relative;
+  font-size: 2.8rem;
+  color: #fff;
+}
+.banner .banner-info a {
+  position: relative;
+  text-decoration: none;
+  background: #07ebf3;
+  color: #fff;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px 35px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: 0.3s linear;
+}
+p.text {
+  color: orange;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.banner .banner-info a:hover {
+  background: #148e92;
+}
+.banner-info img {
+  width: 10rem;
+}

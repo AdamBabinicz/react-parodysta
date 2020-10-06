@@ -1,0 +1,66 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background: #204b75;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.navbar .logo {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  left: 5%;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .logo .clown {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+.navbar ul {
+  position: relative;
+  height: 100%;
+  width: 35%;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: auto;
+  height: inherit;
+}
+.navbar ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.3s linear;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 10px;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a {
+  background: #fff;
+  color: #017bf5;
+}
+@media (max-width: 768px) {
+  /* .navbar ul {
+    display: none;
+  } */
+}

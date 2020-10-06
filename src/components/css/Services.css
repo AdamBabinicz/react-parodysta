@@ -1,0 +1,88 @@
+.services {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 3rem;
+}
+.services h3.cont {
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  /* margin-top: 3rem; */
+  padding-bottom: 2rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.596);
+}
+.services p.sub-heading {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  color: #444;
+  margin-top: -0.9rem;
+}
+span em.aut {
+  position: relative;
+  display: flex;
+  margin-top: 2rem;
+  /* align-self: flex-end; */
+  justify-content: center;
+  background: transparent;
+}
+.services .services-cards {
+  position: relative;
+  height: 300px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 2rem;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+.services .services-cards .card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  text-align: center;
+  /* background: #ccc; */
+}
+.services .services-cards .card i {
+  position: relative;
+  font-size: 4rem;
+  color: rgb(255, 8, 0);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services .services-cards .card i:hover {
+  color: rgb(201, 13, 6);
+}
+h3 .fa-quote-left {
+  color: #ccc !important;
+  font-size: 2rem !important;
+}
+.services .services-cards .card h3 {
+  position: relative;
+  font-size: 1.8rem;
+}
+.services .services-cards .card p {
+  position: relative;
+  font-size: 1rem;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .services .services-cards {
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}
