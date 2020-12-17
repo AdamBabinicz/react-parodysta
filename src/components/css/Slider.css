@@ -17,9 +17,13 @@
 .slide {
   /* border: 1px solid #444; */
   min-width: 100%;
-  height: auto;
+  /* height: auto; */
   transition: 0.5s;
   overflow: hidden;
+}
+.slide img {
+  display: flex;
+  margin: 0 auto;
 }
 .btn {
   position: absolute;

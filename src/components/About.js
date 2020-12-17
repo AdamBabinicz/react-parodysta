@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/About.css";
 // import styled from "styled-components";
-import Fot1 from "../images/kiepski1.jpg";
+import Fot1 from "../images/2.jpg";
 import Fot2 from "../images/dyzma1.jpg";
 import Fot3 from "../images/maklo1.jpg";
 import Fot4 from "../images/vabank1.jpg";
@@ -75,7 +75,7 @@ const About = () => {
             gwiazd, które chętnie naśladuję, są: Robert Makłowicz, Adam Michnik,
             Andrzej Lepper(†) czy Lech Wałęsa. Parodjuję także role: Ferdynanda
             Kiepskiego, (za przeproszeniem) Mariana Paździocha czy Arnolda
-            Boczka.
+            Boczka(†).
           </p>
           <p>
             <mark>W</mark> swoich skeczach, które powstają spontanicznie, nie
