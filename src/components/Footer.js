@@ -60,7 +60,7 @@ function Footer() {
               <GiClown className="navbar-icon" />
             </Link>
           </div>
-          <small className="website-rights">Radomski Makłowicz 2020</small>
+          <small className="website-rights">Radomski Makłowicz 2020 - {new Date().getFullYear()}.</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
