@@ -73,7 +73,7 @@ const About = () => {
             </span>
             <mark>U</mark>wielbiam parodiować polityków i celebrytów. Wśród
             gwiazd, które chętnie naśladuję, są: Robert Makłowicz, Adam Michnik,
-            Andrzej Lepper(†) czy Lech Wałęsa. Parodjuję także role: Ferdynanda
+            Andrzej Lepper(†) czy Lech Wałęsa. Parodiuję także role: Ferdynanda
             Kiepskiego, (za przeproszeniem) Mariana Paździocha(†), czy Arnolda
             Boczka(†).
           </p>
