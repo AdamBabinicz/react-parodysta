@@ -14,11 +14,12 @@
 }
 .cont img {
   width: 100%;
+  /* height: auto; */
   position: relative;
 }
-.grid img:nth-child(1) {
+/* .grid img:nth-child(1) {
   margin-top: 0;
-}
+} */
 mark {
   background: transparent;
   font-size: 2rem;
@@ -28,6 +29,7 @@ span.abs {
   position: relative;
   font-weight: 600;
   color: #fff;
+  max-height: 100%;
 }
 span em {
   position: absolute;
@@ -36,6 +38,8 @@ span em {
   z-index: 1;
   padding: 0 0.2rem;
   background: rgba(8, 8, 8, 0.37);
+  display: flex;
+  flex-wrap: nowrap;
 }
 .cont h3 {
   text-align: center;
@@ -58,6 +62,9 @@ span em {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .x img {
+    max-height: 220px;
   }
   span em {
     font-size: 0.8rem;

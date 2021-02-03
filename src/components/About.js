@@ -37,7 +37,7 @@ const About = () => {
             wyraziste z silnie zarysowanymi bohaterami.
             <br />
             <br />
-            <span className="abs x">
+            <span className="x abs">
               <img src={Fot2} alt="..." />
               <em>Kariera Nikodema Dyzmy 1980</em>
             </span>
@@ -74,7 +74,7 @@ const About = () => {
             <mark>U</mark>wielbiam parodiować polityków i celebrytów. Wśród
             gwiazd, które chętnie naśladuję, są: Robert Makłowicz, Adam Michnik,
             Andrzej Lepper(†) czy Lech Wałęsa. Parodjuję także role: Ferdynanda
-            Kiepskiego, (za przeproszeniem) Mariana Paździocha czy Arnolda
+            Kiepskiego, (za przeproszeniem) Mariana Paździocha(†), czy Arnolda
             Boczka(†).
           </p>
           <p>
