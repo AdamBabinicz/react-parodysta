@@ -52,7 +52,7 @@ const About = () => {
             Henryka Gołębiewskiego, wspaniałego aktora - naturszczyka. Na jego
             przykładzie widzę, że wszystko w życiu jest możliwe i nie należy
             tracić nadziei.
-            <br /> Od dwóch lat prowadzę bloga, na którego serdecznie zapraszam.
+            <br /> Od 2018 roku prowadzę bloga, na którego serdecznie zapraszam.
             <br />
             <br />
             <span className="abs">
