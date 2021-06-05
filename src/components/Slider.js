@@ -8,13 +8,13 @@ import i4 from "../images/mi4.jpg";
 import i5 from "../images/mi5.jpg";
 import i6 from "../images/mi6.jpg";
 import i7 from "../images/mi7.jpg";
-import i8 from "../images/mi9.jpg";
-import i9 from "../images/mi10.jpg";
+import i8 from "../images/20-1.jpg";
+import i9 from "../images/21-1.jpg";
 import i10 from "../images/mi11.jpg";
-import i11 from "../images/mi-12.jpg";
-import i12 from "../images/mi-13.jpg";
-import i13 from "../images/17-1.jpg";
-import i14 from "../images/18-1.jpg";
+import i11 from "../images/mi-15.jpg";
+import i12 from "../images/mi-14.jpg";
+import i13 from "../images/17-2.jpg";
+import i14 from "../images/18-2.jpg";
 
 function Slider() {
   let sliderArr = [
