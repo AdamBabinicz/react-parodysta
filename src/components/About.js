@@ -30,6 +30,7 @@ const About = () => {
               <img src={Fot6} alt="..." />
               <em>"C.K. Dezerterzy 1985"</em>
             </span>
+            <br />
             <mark>P</mark>asjami oglądam również polskie seriale i filmy,
             głównie z czasów PRL-u.
             <br />
