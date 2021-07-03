@@ -5,7 +5,7 @@ import "./css/Banner.css";
 import Popup from "./Popup";
 import web from "../images/22a.jpg";
 
-const Banner = ({ title, img, p, em }) => {
+const Banner = () => {
   const [buttonPopup, setButtonPopup] = useState(false);
 
   return (
@@ -27,7 +27,7 @@ const Banner = ({ title, img, p, em }) => {
           <br />
           <img src={web} /> <br />
           <p>Andrzej Lepper ✝</p> <br />
-          <em>https://quotepark.com/pl/autorzy/andrzej-lepper/</em>
+          <em>https://quotepark.com/pl/autorzy/andrzej-lepper</em>
         </Popup>
       </div>
     </>
