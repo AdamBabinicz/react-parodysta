@@ -17,6 +17,9 @@ import i13 from "../images/17-2.jpg";
 import i14 from "../images/18-2.jpg";
 import i15 from "../images/23a.jpg";
 import i16 from "../images/24a.jpg";
+import i17 from "../images/25a.jpg";
+import i18 from "../images/26a.jpg";
+import i19 from "../images/27a.jpg";
 
 function Slider() {
   let sliderArr = [
@@ -36,6 +39,9 @@ function Slider() {
     <ImgComp src={i14} />,
     <ImgComp src={i15} />,
     <ImgComp src={i16} />,
+    <ImgComp src={i17} />,
+    <ImgComp src={i18} />,
+    <ImgComp src={i19} />,
   ];
 
   const [x, setX] = useState(0);
