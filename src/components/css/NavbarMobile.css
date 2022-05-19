@@ -91,6 +91,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     width: 100%;
     height: 90vh;
     position: absolute;
@@ -110,6 +111,7 @@
     text-align: center;
     padding: 2rem;
     width: 100%;
+    display: table;
     display: table;
   }
   .nav-links:hover {
