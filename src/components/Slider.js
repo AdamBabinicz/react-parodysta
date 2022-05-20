@@ -20,6 +20,19 @@ import i16 from "../images/24a.jpg";
 import i17 from "../images/25a.jpg";
 import i18 from "../images/26a.jpg";
 import i19 from "../images/27a.jpg";
+import i20 from "../images/42.jpg";
+import i21 from "../images/43.jpg";
+import i22 from "../images/44.jpg";
+import i23 from "../images/45.jpg";
+import i24 from "../images/46.jpg";
+import i25 from "../images/47.jpg";
+import i26 from "../images/48.jpg";
+import i27 from "../images/49.jpg";
+import i28 from "../images/50.jpg";
+import i29 from "../images/51.jpg";
+import i30 from "../images/52.jpg";
+import i31 from "../images/53.jpg";
+import i32 from "../images/54.jpg";
 
 function Slider() {
   let sliderArr = [
@@ -42,6 +55,19 @@ function Slider() {
     <ImgComp src={i17} />,
     <ImgComp src={i18} />,
     <ImgComp src={i19} />,
+    <ImgComp src={i20} />,
+    <ImgComp src={i21} />,
+    <ImgComp src={i22} />,
+    <ImgComp src={i23} />,
+    <ImgComp src={i24} />,
+    <ImgComp src={i25} />,
+    <ImgComp src={i26} />,
+    <ImgComp src={i27} />,
+    <ImgComp src={i28} />,
+    <ImgComp src={i29} />,
+    <ImgComp src={i30} />,
+    <ImgComp src={i31} />,
+    <ImgComp src={i32} />,
   ];
 
   const [x, setX] = useState(0);
