@@ -5,10 +5,12 @@ import Banner from "./components/Banner";
 import Services from "./components/Services";
 import Slider from "./components/Slider";
 import About from "./components/About";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import Video from "./components/Video";
 import Footer from "./components/Footer";
 import NavbarMobile from "./components/NavbarMobile";
 import ScrollToTop from "./components/ScrollToTop";
+// import { motion } from "framer-motion";
 import "./App.css";
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
         <Route path="/banner" component={Banner} />
         <Route path="/services" component={Services} />
         <Route path="/slider" component={Slider} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/video" component={Video} />
       </Switch>
       <Footer />
     </BrowserRouter>

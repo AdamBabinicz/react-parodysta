@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to="/slider">Foto</Link>
           </li>
           <li>
-            <Link to="/contact">Kontakt</Link>
+            <Link to="/video">Pożegnanie</Link>
           </li>
         </ul>
       </div>

@@ -72,11 +72,11 @@ function NavbarMobile() {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/contact"
+                  to="/video"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Kontakt
+                  Pożegnanie
                 </Link>
               </li>
               {/* <li className="nav-btn">
