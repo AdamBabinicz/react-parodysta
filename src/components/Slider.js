@@ -33,11 +33,12 @@ import i29 from "../images/51.jpg";
 import i30 from "../images/52.jpg";
 import i31 from "../images/53.jpg";
 import i32 from "../images/54.jpg";
-import i33 from "../images/55.jpg";
+import i33 from "../images/59.jpg";
+import i34 from "../images/55.jpg";
 
 function Slider() {
   let sliderArr = [
-    <ImgComp src={i1} srcSet={`${i8} 600w`} />,
+    <ImgComp src={i1} />,
     <ImgComp src={i2} />,
     <ImgComp src={i3} />,
     <ImgComp src={i4} />,
@@ -70,6 +71,7 @@ function Slider() {
     <ImgComp src={i31} />,
     <ImgComp src={i32} />,
     <ImgComp src={i33} />,
+    <ImgComp src={i34} />,
   ];
 
   const [x, setX] = useState(0);
