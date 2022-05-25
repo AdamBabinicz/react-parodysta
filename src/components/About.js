@@ -12,7 +12,7 @@ import Fot7 from "../images/zmien1.jpg";
 const About = () => {
   return (
     <>
-      <div className="cont">
+      <div className="conts">
         <h3 className="dis">O mnie</h3>
         <div className="grid">
           <p>
