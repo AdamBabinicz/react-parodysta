@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 .navbar-container {
   display: flex;
@@ -41,7 +41,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
 }
 /* .navbar-logo {
   color: #fff;
