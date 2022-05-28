@@ -13,6 +13,7 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   color: rgba(51, 51, 51, 0.596);
+  padding: 3rem 10rem;
 }
 .services p.sub-heading {
   position: relative;

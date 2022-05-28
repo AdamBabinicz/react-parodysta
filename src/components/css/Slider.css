@@ -1,4 +1,4 @@
-.cont {
+h3.cont {
   text-align: center;
   width: 100%;
   font-size: 2.5rem;
@@ -7,6 +7,7 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   color: rgba(51, 51, 51, 0.596);
+  padding: 3rem 10rem;
 }
 .slider {
   /* border: 1px solid #ccc; */
