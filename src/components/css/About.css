@@ -42,15 +42,18 @@ span em {
   display: flex;
   flex-wrap: nowrap;
 }
-.conts h3 {
+h3.dis {
+  display: flex;
+  justify-content: center;
   text-align: center;
   width: 100%;
   font-size: 2.5rem;
-  /* margin-top: 3rem; */
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2.5rem;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: rgba(51, 51, 51, 0.596);
+  /* padding: 3rem 10rem; */
 }
 .conts p {
   line-height: 2rem;

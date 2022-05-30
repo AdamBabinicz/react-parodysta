@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <div className="conts">
-        <h3 className="dis">O mnie</h3>
+        <h3 className="dis">O&nbsp;mnie</h3>
         <div className="grid">
           <p>
             <span className="abs">
