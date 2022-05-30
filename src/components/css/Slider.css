@@ -56,6 +56,10 @@ h3.cont {
   background: rgba(0, 0, 0, 0.431);
   cursor: pointer;
 }
+.btn i {
+  color: #aaa;
+  transition: 0.5s;
+}
 .btn:hover i {
   color: #fff;
 }
@@ -83,5 +87,8 @@ h3.cont {
     max-width: 30rem !important;
     height: 28rem !important;
     object-fit: cover !important;
+  }
+  .btn i {
+    font-size: 3rem;
   }
 }
