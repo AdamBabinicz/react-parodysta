@@ -8,14 +8,14 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <Link to="/" className="logo">
-          Radomski parodysta
+          Radomski parodysta 1978-2022
           <span className="clown">
             <GiClown />
           </span>
         </Link>
         <ul>
           <li className="active">
-            <Link to="/">Home</Link>
+            <Link to="/">Start</Link>
           </li>
           <li>
             <Link to="/services">Filmy</Link>
